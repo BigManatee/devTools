@@ -68,3 +68,90 @@
         width:100%;
     }
 }
+
+.colorfromimg {
+
+}
+.colorfromimg .button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: all .25s ease-out;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: 5px 10px;
+    margin: 0 1rem 1rem 0;
+    font-size: 12px;
+    background: #2199e8;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+}
+.colorfromimg [type=text],.colorfromimg [type=password],.colorfromimg [type=date],
+.colorfromimg [type=datetime],.colorfromimg [type=datetime-local],.colorfromimg [type=month],
+.colorfromimg [type=week],.colorfromimg [type=email],.colorfromimg [type=tel],
+.colorfromimg [type=time],.colorfromimg [type=url],.colorfromimg [type=color],
+.colorfromimg [type=number],.colorfromimg  [type=search], .colorfromimg textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #cacaca;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 12px;
+    color: #8a8a8a;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+    border-radius: 0;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.colorfromimg .show-for-sr, .colorfromimg .show-on-focus {
+    position: absolute!important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+.colorfromimg .small-9 {
+    width: 75%;
+}
+.colorfromimg .small-3 {
+    width: 25%;
+}
+.colorfromimg .smaller-3 {
+    width: 15%;
+}
+.colorfromimg .small-7 {
+    width: 58.33333%;
+}
+.colorfromimg .small-2 {
+    width: 16.66667%;
+}
+@media screen and (min-width: 64em) {
+    .colorfromimg .large-4 {
+        width: 33.33333%;
+    }
+}
+.colorfromimg .small-6 {
+    width: 50%;
+}
+.colorfromimg .nopad {
+    padding:0;
+}
+.colorfromimg .nopadleft {
+    padding-left:0;
+}
+.colorfromimg .nopadright {
+    padding-right:0;
+}
+.colorfromimg .text-right {
+    text-align: right;
+    line-height: 50px;
+    font-size: 20px;
+}

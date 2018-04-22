@@ -6,6 +6,7 @@
             <li><a href="/charactercount"><i class="fa fa-adn"></i> Character Count</a></li>
             <li><a href="/base64"><i class="fa fa-wrench"></i> Base64 Encode/Decode</a></li>
             <li><a href="/duplicatelinecounter"><i class="fa fa-list-ul"></i> Duplicate Line Counter</a></li>
+            <li><a href="/colorfromimg"><i class="fa fa-image"></i> Color from Image</a></li>
         </ul>
     </div>
 </div>
