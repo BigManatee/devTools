@@ -28,7 +28,7 @@
                 <?php include_once("assets/inc/nav.php"); ?>
 
                 <div class="col-md-9">
-                    <div class="panel-standard">
+                    <div class="panel-standard dupes">
                         <h3>Duplicate Line Counter</h3>
                         
                         <form method="get" action="#" onsubmit="return false;" name="lineCounts">

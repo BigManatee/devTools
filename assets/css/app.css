@@ -38,3 +38,33 @@
 .counter {
     float: right;
 }
+
+@media only screen and (max-device-width: 414px) {
+    /** char counter */
+    .row-fluid-5 {
+        margin-bottom: 10px;
+    }
+    .row-fluid-5 .span2 {
+        width: 50%;
+        padding-left:0;
+    }
+    .row-fluid-5 .span2:nth-child(2), .row-fluid-5 .span2:nth-child(4) {
+        padding-left: 6px !important;
+    }
+
+    /** base64 encode/decode */
+    .panel-standard.b64 .cols {
+        width: 100%;
+    }
+    .panel-standard.b64 .colmid {
+        top:0;
+    }
+    .panel-standard.b64 textarea {
+        height: 200px;
+    }
+
+    /** Dupe lines */
+    .panel-standard.dupes textarea {
+        width:100%;
+    }
+}
