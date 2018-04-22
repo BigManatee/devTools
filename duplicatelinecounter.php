@@ -57,7 +57,6 @@
         textInput = formObj.elements['textInput'];
         objCountsPlaceholder = document.getElementById('CountsPlaceholder');
     
-        // Index 0 is the count, 1 is the line
         sortByIndex = 0;
         if(document.getElementById('sortby_line').checked) {
             sortByIndex = 1;
@@ -68,9 +67,7 @@
         var countLines = arrLines.length;
         var arrUniqueLines = [];
 
-        // Loop through lines and accumulate counts
         for(var i = 0; i < countLines; i++) {
-            // Ignore trailing new-line (if there is one)
             var currentLine = arrLines[i];
             if(currentLine.substr(currentLine.length - 2, 2) == "\r\n") {
                 currentLine = currentLine.substr(0, currentLine.length - 2);
@@ -80,7 +77,6 @@
                     currentLine = currentLine.substr(0, currentLine.length - 1);
             }
     
-            // Count the lines
             if(!arrUniqueLines[currentLine]) {
                 arrUniqueLines[currentLine] = 1;
             } else {
@@ -88,7 +84,6 @@
             }
         }
 
-        // Delete the counts from previous run
         if(objCountsPlaceholder.hasChildNodes()){
             while(objCountsPlaceholder.childNodes.length >= 1){
                 objCountsPlaceholder.removeChild(objCountsPlaceholder.firstChild);
@@ -98,13 +93,12 @@
         AppendLine("COUNT    | LINE");
         AppendLine("-----------------------------------------------------");
         
-        // Sort by count
         var sortedLines = [];
         for(var i in arrUniqueLines) {
             sortedLines.push([arrUniqueLines[i], i]);
         }
         arrUniqueLines = null;
-        // Reverse sort by count
+
         sortedLines.sort(function(a,b) {
             if(sortByIndex == 0) {
                 return (b[0] - a[0] != 0 ? b[0] - a[0] : a[1].localeCompare(b[1]));
@@ -113,17 +107,16 @@
             }
         });
 
-        // Print the line counts
         for(var i in sortedLines) {
             strToPrint = '' + zeroPad(sortedLines[i][0], 8, " ");
             strToPrint += ' | ' + sortedLines[i][1] + '';
             AppendLine(strToPrint);
         }
 
-        // Print total character count
         AppendLine("-----------------------------------------------------");
         AppendLine(zeroPad(countLines, 8, " ") + " | TOTAL LINES");
     }
+    
     // n = number you want padded
     // digits = length you want the final output
     function zeroPad(n, digits, padChar) {
