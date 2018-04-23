@@ -20,7 +20,7 @@
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="headline col-md-12 text-center">Tools</div>
+                <div class="headline col-md-12 text-center">devTools | tyler.ac</div>
             </div>
             <?php include_once("assets/inc/notice.php"); ?>
 
