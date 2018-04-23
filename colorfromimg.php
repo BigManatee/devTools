@@ -10,7 +10,7 @@
 
     <link href="assets/css/lib.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="assets/css/app.css?v={{ date().timestamp }}" rel="stylesheet">
+    <link href="assets/css/app.css?v=<?php echo time(); ?>" rel="stylesheet">
     <link rel="icon" href="assets/img/favicon.ico"/>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|M0ntserrat:400,700' rel='stylesheet' type='text/css'>
     <style type="text/css">pre{margin:0;padding:0;background:#fff;border:0}</style>
