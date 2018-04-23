@@ -16,3 +16,6 @@ Heavily inspired by simlar tools currently out there.
 
 ### List Delimiter
 - It's a comma separating tool, supporting the following: `,`, `;`, `|`, ` `
+
+### Text Case Converter
+- Converts typed or pasted text to `Title Case`, `lower case`, `UPPER CASE` and more

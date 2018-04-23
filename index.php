@@ -30,7 +30,26 @@
                     <div class="panel-standard">
                         <h3>What is this?</h3>
                         
-                        <p>These are just some common things I find my self using / needing a lot.</p>
+                        <p>Tools I often find myself needing / using a lot.</p>
+                        <p>Heavily inspired by simlar tools currently out there.</p>
+                        <hr>
+                        <h3>Character Count</h3>
+                        <p>- Counts how many characters, words, sentences, whitespace and calculates the size in  bytes.</p>
+
+                        <h3>Base64 Encode / Decode</h3>
+                        <p>- Encode or decode text</p>
+
+                        <h3>Duplicate Line Counter</h3>
+                        <p>- Orders by duplicate lines, great for excel sheets</p>
+
+                        <h3>Color from Image</h3>
+                        <p>- Select a colour from any image you upload via files or by url</p>
+
+                        <h3>List Delimiter</h3>
+                        <p>- It's a comma separating tool, supporting the following: <code>,</code>, <code>;</code>, <code>|</code>, <code> </code></p>
+
+                        <h3>Text Case Converter</h3>
+                        <p>- Converts typed or pasted text to <code>Title Case</code>, <code>lower case</code>, <code>UPPER CASE</code> and more</p>
 
                     </div>
                 </div>
