@@ -31,7 +31,7 @@
                         <h3>What is this?</h3>
                         
                         <p>Tools I often find myself needing / using a lot.</p>
-                        <p>Heavily inspired by simlar tools currently out there.</p>
+                        <p>Heavily inspired by similar tools currently out there.</p>
                         <hr>
                         <h3>Character Count</h3>
                         <p>- Counts how many characters, words, sentences, whitespace and calculates the size in  bytes.</p>

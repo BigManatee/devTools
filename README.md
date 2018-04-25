@@ -1,6 +1,6 @@
 # devTools
 Tools I often find myself needing / using a lot.   
-Heavily inspired by simlar tools currently out there.
+Heavily inspired by similar tools currently out there.
 
 ### Character Count
 - Counts how many characters, words, sentences, whitespace and calculates the size in  bytes.

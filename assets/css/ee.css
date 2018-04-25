@@ -1,0 +1,6 @@
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 9.5em;
+    font-size:14px !important;
+}
