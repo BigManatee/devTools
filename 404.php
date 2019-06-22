@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>404 | Tools - Things I often find myself using | tyler.ac</title>
+  <title>404 | Tools - Things I often find myself using | iamtyler.sh</title>
 
   <link href="assets/css/lib.css" rel="stylesheet">
   <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="headline col-md-12 text-center">devTools | tyler.ac</div>
+                <div class="headline col-md-12 text-center">devTools | iamtyler.sh</div>
             </div>
             <?php include_once("assets/inc/notice.php"); ?>
             

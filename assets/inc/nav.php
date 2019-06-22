@@ -1,7 +1,7 @@
 <div class="col-md-3">
     <div class="panel-standard menu-standard">
         <span class="title-grey">menu</span>
-        <span class="title-grey rht"><a href="https://tyler.ac"><i class="fa fa-chevron-left"></i> return</a></span>
+        <span class="title-grey rht"><a href="https://iamtyler.sh"><i class="fa fa-chevron-left"></i> return</a></span>
         <ul>
             <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="/charactercount"><i class="fa fa-adn"></i> Character Count</a></li>

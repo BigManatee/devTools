@@ -2,6 +2,8 @@
 Tools I often find myself needing / using a lot.   
 Heavily inspired by similar tools currently out there.
 
+Bad right? Yeah I know, it's kinda a bodge job
+
 ### Character Count
 - Counts how many characters, words, sentences, whitespace and calculates the size in  bytes.
 
